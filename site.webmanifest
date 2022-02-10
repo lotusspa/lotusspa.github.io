@@ -1,6 +1,6 @@
 {
-    "name": "",
-    "short_name": "",
+    "name": "Lotus Spa",
+    "short_name": "Lotus Spa",
     "icons": [{
         "src": "/android-chrome-192x192.png",
         "sizes": "192x192",
@@ -12,5 +12,6 @@
     }],
     "theme_color": "#2596be",
     "background_color": "#2596be",
+    "start_url": "/",
     "display": "standalone"
 }
