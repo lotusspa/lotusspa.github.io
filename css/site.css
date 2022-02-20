@@ -43,7 +43,7 @@ body {
 header {
   background-color: rgba(255,255,255,0.7);
 }
-header > div > h3 {
+header > div > h1 {
   background-color:#353535;
   font-family: 'Oranienbaum', serif;text-align:center;
 }
