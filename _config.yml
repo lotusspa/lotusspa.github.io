@@ -1,0 +1,33 @@
+# Site info
+title: Lotus Spa
+tagline: The Lotus Spa website.
+description: The Lotus Spa website.
+author: Lotus Spa
+lang: en_GB
+repository: lotusspa/lotusspa.github.io
+
+# Outputting
+baseurl: ""
+timezone: Europe/London
+
+# Generator exclusions
+exclude:
+  - vendor
+  - /LICENSE
+  - /Gemfile
+  - /Gemfile.lock
+  - /params.json
+  - /README.md
+
+# Site config
+highlighter: rouge
+
+# Sass/SCSS
+sass:
+  style: compressed
+
+# HTML Compression
+# - https://jch.penibelst.de/
+compress_html:
+  clippings: all
+  comments: ["<!-- ", " -->"]

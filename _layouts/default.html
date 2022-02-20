@@ -1,0 +1,38 @@
+---
+layout: compress
+---
+<!doctype html>
+<html lang="en" class="h-100">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Lotus Spa website">
+    <meta name="author" content="Lotus Spa">
+    <title>Lotus Spa</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="{{ 'apple-touch-icon.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="32x32" href="{{ 'favicon-32x32.png' | relative_url }}">
+    <link rel="icon" type="image/png" sizes="16x16" href="{{ 'favicon-16x16.png' | relative_url }}">
+    <link rel="manifest" href="{{ 'site.webmanifest' | relative_url }}">
+    <link rel="shortcut icon" href="{{ 'favicon.ico' | relative_url }}">
+    <meta name="theme-color" content="#2596be">
+    <link href="{{ 'css/bootstrap.min.css' | relative_url }}" rel="stylesheet">
+    <link href="{{ 'css/site.css' | relative_url }}" rel="stylesheet">
+  </head>
+  <body class="d-flex h-100 text-center">
+    <div class="cover-container d-flex w-100 h-100 p-3 mx-auto flex-column">
+      <header class="mb-auto">
+        <div>
+          <h1 class="float-md-start mb-0 h3 text-white text-uppercase p-3">Lotus Spa</h1>
+        </div>
+      </header>
+
+      <main class="px-3">
+        {{ content }}
+      </main>
+
+      <footer class="mt-auto">
+        <p class="fs-6 fw-light">&copy; Copyright Lotus Spa. All rights reserved.</p>
+      </footer>
+    </div>
+  </body>
+</html>
