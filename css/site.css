@@ -37,6 +37,14 @@ body {
   background-color: rgba(255,255,255,0.5);
   background-image: none;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Oranienbaum', serif;
+}
 /*
  * Header
  */
@@ -45,5 +53,5 @@ header {
 }
 header > div > h1 {
   background-color:#353535;
-  font-family: 'Oranienbaum', serif;text-align:center;
+  text-align: center;
 }
